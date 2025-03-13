@@ -1,0 +1,171 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.task-form {
+    display:flex;
+    gap: 8px;
+    margin-bottom: 20px;
+}
+
+#task{
+    width: 300px;
+    padding-right:140px;
+    padding-left: 15px;
+    padding-top: 7px;
+    padding-bottom:7px;
+}
+
+#priority{
+    padding-left: 5px;
+}
+
+#deadline{
+    padding-left: 5px;
+}
+
+#add-task{
+    padding-left: 13px;
+    padding-right: 13px;
+}
+.task-list {
+    border: 1px solid #ddd;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.task {
+    display: grid;
+    grid-template-columns: 2fr 1.5fr 2fr 1fr 1fr; /* Adjust width ratio as needed */
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.task-content {
+    display: contents; /* Ensures grid items align properly */
+    text-decoration: none;
+}
+
+.task .mark-done {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.task .delete-task {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin: 10px;
+}
+
+.task.done .task-text,
+.task.done .priority-text,
+.task.done .deadline-text{
+    text-decoration: none;
+     opacity: 0.6;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+    
+header {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+    
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+ 
+.task-form {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 20px;
+}
+  
+.task-list {
+    border: 1px solid #ddd;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+     gap: 10px;
+}
+  
+.task {
+    display: grid;
+    grid-template-columns: 2fr 1.5fr 2fr 1fr 1fr; /* Adjust width ratio as needed */
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+    
+/* Ensures only task details (not buttons) are affected */
+.task-content {
+    display: contents;
+}
+    
+.task.done .task-text,
+.task.done .priority-text,
+.task.done .deadline-text {
+    text-decoration: line-through;
+    opacity: 0.6;
+}
+    
+/* Ensure buttons are not affected */
+.task .mark-done {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin: 10px;
+    padding: 3px 10px;
+}
+    
+.task .delete-task {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin: 10px;
+    padding: 3px 15px;
+}
