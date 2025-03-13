@@ -1,0 +1,78 @@
+*{
+    box-sizing:border-box;
+}
+body{
+    background-color: rgb(172, 235, 227);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 15px 30px;
+    padding:8px;
+}
+.container{
+    background-color: bisque;
+    margin-left:300px;
+    margin-right: 300px;
+    margin-top: 30px;
+    padding:30px;
+}
+h1{
+    width:100%;
+    text-align: center;
+    color:rgb(98, 51, 17);
+    padding-top: 30px;
+}
+h2{
+    color:rgb(90, 53, 27);
+}
+#personal h4,h2,#personal,#payment h4,#payment,#card_details,#upi_details{
+    color:firebrick;
+    text-align:left;
+}
+#personal,#payment,#card_details,#upi_details{
+    padding-left: 10px;
+}
+#card_details,#upi_details{
+    padding-bottom: 30px;;
+}
+input[type="text"],input[type="number"],input[type="email"],input[type="password"]{
+    width:98%;
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(187, 157, 125,0.577);
+}
+input[type="radio"]{
+    width:10%;
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgba(187, 157, 125, 0.577);
+}
+select{
+    width:49%;
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgba(187, 157, 125, 0.577);
+}
+input[type="submit"]{
+    width:49%;
+    padding:12px;
+    border: none;
+    border-radius: 50px;
+    background-color: rgb(150, 202, 98);
+    cursor:pointer;
+}
+input[type="reset"]{
+    width:49%;
+    padding:12px;
+    border: none;
+    border-radius: 50px;
+    background-color: rgb(227, 64, 10);
+    cursor:pointer;
+}
+input[type="submit"]:hover{
+    background-color: rgb(75, 133, 17);
+}
+input[type="reset"]:hover{
+    background-color: rgb(176, 71, 36);
+}
