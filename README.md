@@ -13,7 +13,7 @@ This repository serves as a showcase of my frontend development journey. Each pr
 ## 💡 How to Use  
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/your-username/repository-name.git
+   git clone https://github.com/Anne1309/Front-end-projects.git
 2. Open the respective project folder.
 3. Run the index.html file in your browser.
 
