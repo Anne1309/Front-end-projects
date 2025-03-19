@@ -20,8 +20,8 @@ This repository serves as a showcase of my frontend development journey. Each pr
 ## Projects
 1. [Calculator](https://anne1309.github.io/Front-end-projects/calculator)
 2. [Calendar](https://anne1309.github.io/Front-end-projects/calendar)
-3. [Connect 4](https://anne1309.github.io/Front-end-projects/connect-4)
-4. [Payment Form](https://anne1309.github.io/Front-end-projects/Payment-Form)
+3. [Connect 4](https://anne1309.github.io/Front-end-projects/connect-4/index.html)
+4. [Payment Form](https://anne1309.github.io/Front-end-projects/Payment-Form/index.html)
 5. [QR Code generator](https://anne1309.github.io/Front-end-projects/QR-code-generator)
 6. [Quiz app](https://anne1309.github.io/Front-end-projects/quiz-app)
 7. [Rock Paper Scissors](https://anne1309.github.io/Front-end-projects/rock-paper-sciissors)
