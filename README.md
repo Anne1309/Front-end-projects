@@ -17,7 +17,7 @@ This repository serves as a showcase of my frontend development journey. Each pr
 2. Open the respective project folder.
 3. Run the index.html file in your browser.
 
-##Projects
+## Projects
 1. [Calculator](https://anne1309.github.io/Front-end-projects/calculator)
 2. [Calendar](https://anne1309.github.io/Front-end-projects/calendar)
 3. [Connect 4](https://anne1309.github.io/Front-end-projects/connect-4)
